@@ -1,0 +1,44 @@
+| Silkscreen Pin | Function / Label      | ATmega32U4 Port/Pin |
+| -------------- | --------------------- | ------------------- |
+| RAW            | Raw voltage input     | —                   |
+| VCC            | 5V regulated output   | —                   |
+| GND            | Ground                | —                   |
+| RST            | Reset                 | RESET               |
+| TX1            | UART Transmit         | PD3                 |
+| RX0            | UART Receive          | PD2                 |
+| D2             | Digital 2 / INT0      | PD0                 |
+| D3             | Digital 3 / PWM       | PD1                 |
+| D4             | Digital 4             | PD4                 |
+| D5             | Digital 5 / PWM       | PC6                 |
+| D6             | Digital 6 / PWM       | PD7                 |
+| D7             | Digital 7             | PE6                 |
+| D8             | Digital 8             | PB4                 |
+| D9             | Digital 9 / PWM       | PB5                 |
+| D10            | Digital 10 / SS / PWM | PB6                 |
+| D16 / MISO     | SPI MISO              | PB3                 |
+| D14 / MOSI     | SPI MOSI              | PB2                 |
+| D15 / SCK      | SPI SCK               | PB1                 |
+| D16 / SDA      | I2C SDA               | PD1                 |
+| D17 / SCL      | I2C SCL               | PD0                 |
+| A0             | Analog 0              | PF7                 |
+| A1             | Analog 1              | PF6                 |
+| A2             | Analog 2              | PF5                 |
+| A3             | Analog 3              | PF4                 |
+| A6             | Analog 6              | PF3                 |
+| A7             | Analog 7              | PF2                 |
+
+
+| Analog | Silkscreen | ATmega Pin |
+| ------ | ---------- | ---------- |
+| A0     | A0         | PF7        |
+| A1     | A1         | PF6        |
+| A2     | A2         | PF5        |
+| A3     | A3         | PF4        |
+| A6     | A6         | PF3        |
+| A7     | A7         | PF2        |
+
+
+oled pins
+from back view
+silkscreen d2 d3 vcc gnd
+actual pd1 pd0 vcc gnd

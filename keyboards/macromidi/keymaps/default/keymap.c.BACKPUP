@@ -1,0 +1,25 @@
+// Copyright 2023 QMK
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#include QMK_KEYBOARD_H
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    /*
+     * ┌───┬───┬───┬───┐
+     * │ 7 │ 8 │ 9 │ / │
+     * ├───┼───┼───┼───┤
+     * │ 4 │ 5 │ 6 │ * │
+     * ├───┼───┼───┼───┤
+     * │ 1 │ 2 │ 3 │ - │
+     * ├───┼───┼───┼───┤
+     * │ 0 │ . │Ent│ + │
+     * └───┴───┴───┴───┘
+     */
+    [0] = LAYOUT(
+        KC_ESC,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_PGUP,
+        KC_MINS,   KC_PLUS,   KC_MUTE,   KC_VOLD,   KC_VOLU,   KC_PGDN,
+        MS_BTN1,   KC_UP,   MS_BTN2,
+        KC_LEFT,   KC_DOWN,   KC_RIGHT,
+        MO(1),   KC_LALT,   KC_LCTL
+    )
+};

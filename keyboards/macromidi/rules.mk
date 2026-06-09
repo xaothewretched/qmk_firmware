@@ -1,0 +1,6 @@
+BOOTLOADER = caterina
+
+CONSOLE_ENABLE = yes
+ANALOG_ENABLE = yes
+LTO_ENABLE = yes
+OLED_ENABLE = yes
